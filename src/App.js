@@ -13,9 +13,11 @@ class App extends Component {
         <Navbar />
         <Slyder/>
         <Cart />
-        <footer className="footer pink">
-        <p className="ultimotext">Creado por Juliette Ossandón</p>
-      </footer>
+        <footer class="footer">
+        <blockquote>
+            <h2>Creado por Juliette Ossandón</h2>
+        </blockquote>
+    </footer>
       </div>
     )
   }
